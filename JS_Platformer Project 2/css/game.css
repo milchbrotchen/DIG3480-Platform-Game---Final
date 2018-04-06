@@ -1,0 +1,64 @@
+#health {
+  display: inline-block;
+  text-align: right;
+  float: left;
+  max-height: 500px;
+}
+
+.background {
+  background-color: linear-gradient(to bottom right, #427daf, #403b5e);
+  table-layout: fixed;
+  border-spacing: 0;
+  background: url("Images/background.png") repeat-x 0 0 ;
+}
+.background td { padding: 0;          }
+.hands {
+  background: url("Images/hand1.gif") center;
+  background-size: 20px 20px;
+}
+.wall {
+  background: url("Images/cloudmid.png");
+}
+.wallleft {
+  background: url("Images/cloudleft.png");
+}
+.wallright {
+  background: url("Images/cloudright.png");
+}
+
+.floater {
+  background: url("Images/cloud.png") no-repeat center;
+}
+
+.actor  { position: absolute;  }
+.player {
+  background: url("Images/birbstill.gif") no-repeat;
+}
+
+.peach {
+  background: url("Images/peach.png");
+}
+.ghost {
+  background: url("Images/ghost.gif") no-repeat;
+}
+.seal {
+  background: url("Images/seal.png");
+}
+
+.gate{
+  background: url("Images/gate.png");
+}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 500px;
+  position: relative;
+}
+
+.lost .player {
+  background: url("Images/birbleft.gif") no-repeat center;
+}
+.won .player {
+  background: url("Images/win.gif") no-repeat center;
+}
